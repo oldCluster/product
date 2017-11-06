@@ -14,6 +14,6 @@ public class IndexController {
     @RequestMapping("/hello")
     public String hello(){
         logger.info("开始调用");
-        return "Hello Word for test";
+        return "Hello Word for test!";
     }
 }
